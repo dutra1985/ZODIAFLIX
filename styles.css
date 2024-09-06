@@ -1,0 +1,40 @@
+body {
+    color: green;
+    background: yellowgreen;
+    margin: 0px;
+}
+
+header {
+    border-bottom: solid 2px rgb(4, 77, 26);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(4, 77, 26);
+}
+
+.chamada {
+    background: rgb(121, 219, 126);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+        margin-right: 5%;
+
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px
+}
+
+.categoria {
+    padding-left: 20px
+    padding-right: 20px
+}
